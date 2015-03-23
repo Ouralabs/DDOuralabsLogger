@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'DDOuralabsLogger', :exclusive => true do
+  pod "DDOuralabsLogger", :path => "../"
+
+  
+end
