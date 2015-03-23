@@ -1,0 +1,27 @@
+PODS:
+  - CocoaLumberjack (2.0.0):
+    - CocoaLumberjack/Default (= 2.0.0)
+    - CocoaLumberjack/Extensions (= 2.0.0)
+  - CocoaLumberjack/Core (2.0.0)
+  - CocoaLumberjack/Default (2.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0):
+    - CocoaLumberjack/Default
+  - DDOuralabsLogger (0.1.0):
+    - CocoaLumberjack
+    - Ouralabs
+  - Ouralabs (2.1.1)
+
+DEPENDENCIES:
+  - DDOuralabsLogger (from `../`)
+
+EXTERNAL SOURCES:
+  DDOuralabsLogger:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: fd2b1031c6c4e0f08b5ea928ef677fa0a5de517d
+  DDOuralabsLogger: 878f860335713fd2de899e87d0d64100065782b6
+  Ouralabs: e1b05cf241ef32123de8b27581fc4a7b292891d4
+
+COCOAPODS: 0.35.0

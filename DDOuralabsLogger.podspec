@@ -10,29 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "DDOuralabsLogger"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DDOuralabsLogger."
-  s.description      = <<-DESC
-                       An optional longer description of DDOuralabsLogger
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DDOuralabsLogger"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "The official Ouralabs integration for CocoaLumberjack"
+  s.homepage         = "https://github.com/ouralabs/DDOuralabsLogger"
   s.license          = 'MIT'
-  s.author           = { "Ryan Fung" => "ryanh.fung@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DDOuralabsLogger.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Ouralabs" => "support@ouralabs.com" }
+  s.source           = { :git => "https://github.com/ouralabs/DDOuralabsLogger.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/ouralabs'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'DDOuralabsLogger' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'Pod/Classes/DDOuralabsLogger.{h,m}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'CocoaLumberjack'
+  s.dependency 'Ouralabs'
 end
