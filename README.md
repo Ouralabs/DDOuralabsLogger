@@ -21,7 +21,7 @@ In your app delegate, add the Ouralabs logger to CocoaLumberjack. This logger si
 [DDLog addLogger:[DDOuralabsLogger sharedInstance] withLevel:DDLogLevelAll];
 ```
 
-To use the dynamic log levels, see the CocaoLumberjack [documentation](https://github.com/CocoaLumberjack/CocoaLumberjack/blob/master/Documentation/DynamicLogLevels.md)
+To use the dynamic log levels, see the CocoaLumberjack [documentation](https://github.com/CocoaLumberjack/CocoaLumberjack/blob/master/Documentation/DynamicLogLevels.md)
 
 Use the following code to determine what log level should be applied.
 
